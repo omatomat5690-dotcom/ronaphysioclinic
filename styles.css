@@ -130,17 +130,6 @@ p { margin-bottom: 1rem; }
   color: var(--navy);
 }
 
-.btn--outline {
-  background: transparent;
-  color: var(--navy);
-  border: 2px solid var(--navy);
-}
-
-.btn--outline:hover {
-  background: var(--navy);
-  color: var(--white);
-}
-
 .btn--whatsapp {
   background: #25d366;
   color: var(--white);
@@ -570,6 +559,10 @@ p { margin-bottom: 1rem; }
   color: var(--white);
 }
 
+.contact-link {
+  color: inherit;
+}
+
 /* ─── Footer ─── */
 .footer {
   background: var(--navy);
@@ -742,11 +735,6 @@ p { margin-bottom: 1rem; }
 .contact-cta-col .btn {
   font-size: 1.1rem;
   padding: 1rem 2rem;
-}
-
-/* ─── Footer link colours ─── */
-.footer__bottom a.footer-gold {
-  color: var(--gold);
 }
 
 .footer__bottom p + p {
